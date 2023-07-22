@@ -1,10 +1,10 @@
 <?php
- function pasholnahui($name, $color) {
-    echo "<p>Whops who the $name this is you little $color</p>";
+ function greet($name, $color) {
+    echo "<p>Hi my name is $name and I am $color</p>";
  }
 
- pasholnahui('Tom', 'grey');
- pasholnahui('Jerry', 'brown');
+ greet('Tom', 'grey');
+ greet('Jerry', 'brown');
 ?>
 
 <h1><?php bloginfo('name'); ?></h1>
