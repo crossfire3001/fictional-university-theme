@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <?php
 
 $names = array('admin', 'pk', 'DK', 'wordpress');
@@ -18,3 +20,5 @@ while (have_posts()) {
 
 
 ?>
+
+<?php get_footer(); ?>
